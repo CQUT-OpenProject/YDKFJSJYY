@@ -1,0 +1,23 @@
+{
+  "modelVersion": "26.0.0",
+  "dependencies": {
+  },
+  "execution": {
+    // "analyze": "normal",                     /* 构建分析模式。取值：[ "normal" | "advanced" | "ultrafine" | false ]，默认值："normal" */
+    // "daemon": true,                          /* 是否启用守护进程编译。取值：[ true | false ]，默认值：true */
+    // "incremental": true,                     /* 是否启用增量编译。取值：[ true | false ]，默认值：true */
+    // "parallel": true,                        /* 是否启用并行编译。取值：[ true | false ]，默认值：true */
+    // "typeCheck": false,                      /* 是否启用类型检查。取值：[ true | false ]，默认值：false */
+    // "optimizationStrategy": "memory"         /* 优化策略。取值：[ "memory" | "performance" ]，默认值："memory" */
+  },
+  "logging": {
+    // "level": "info"                          /* 日志级别。取值：[ "debug" | "info" | "warn" | "error" ]，默认值："info" */
+  },
+  "debugging": {
+    // "stacktrace": false                      /* 是否关闭堆栈信息编译。取值：[ true | false ]，默认值：false */
+  },
+  "nodeOptions": {
+    // "maxOldSpaceSize": 8192                  /* 启用 nodeOptions 的 maxOldSpaceSize 编译，单位 M，用于守护进程。默认值：8192 */
+    // "exposeGC": true                         /* 是否显式触发垃圾回收。默认值：true */
+  }
+}
