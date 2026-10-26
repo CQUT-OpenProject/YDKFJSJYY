@@ -1,0 +1,23 @@
+# 在此定义工程专属的混淆规则。
+# 可以在当前模块的 build-profile.json5 中引入混淆配置文件。
+#
+# 更多说明请参考
+#   https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/source-obfuscation
+
+# 混淆选项：
+# -disable-obfuscation: 关闭所有混淆
+# -enable-property-obfuscation: 混淆属性名
+# -enable-toplevel-obfuscation: 混淆全局作用域中的名称
+# -compact: 去除不必要的空格和所有换行符
+# -remove-log: 删除所有 console.* 语句
+# -print-namecache: 打印名称映射缓存（旧名称到新名称的映射）
+# -apply-namecache: 复用给定的名称缓存文件
+
+# 保留选项：
+# -keep-property-name: 指定需要保留的属性名
+# -keep-global-name: 指定需要保留的全局作用域名称
+
+-enable-property-obfuscation
+-enable-toplevel-obfuscation
+-enable-filename-obfuscation
+-enable-export-obfuscation

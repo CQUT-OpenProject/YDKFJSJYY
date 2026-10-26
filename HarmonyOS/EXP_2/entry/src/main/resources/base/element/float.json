@@ -1,0 +1,20 @@
+{
+  "float": [
+    {
+      "name": "page_text_font_size",
+      "value": "50fp"
+    },
+    {
+      "name": "md_app_bar_height",
+      "value": "56vp"
+    },
+    {
+      "name": "md_card_radius",
+      "value": "4vp"
+    },
+    {
+      "name": "md_button_radius",
+      "value": "4vp"
+    }
+  ]
+}
